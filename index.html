@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seu cadastro aqui</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <main>
+  <header>
+    <a href="#">Cadastro</a>
+    <a href="#">Página Inicial</a>
+    <a href="#">Fórum</a>
+  </header>
+
+  <div class="container1">
+    <h1>Cadastro aqui</h1>
+    <h2>Insira seus dados para cadastro no campo abaixo</h2>
+  </div>
+
+  <div class="container2">
+    <form class="dados" id="formulario">
+      <label for="name">NOME</label>
+      <input id="name" type="text"><br>
+
+      <label for="email">EMAIL</label>
+      <input id="email" type="text"><br>
+
+      <label for="cpf">C P F</label>
+      <input id="cpf" type="text"><br>
+
+      <label for="password">SENHA</label>
+      <input id="password" type="password"><br>
+
+      <button id="button" type="submit">ENVIAR</button>
+    </form>
+
+    <p id="mensagem-sucesso" style="color: green; font-weight: bold;"></p>
+  </div>
+
+  <footer>
+    <p>Nesta etapa foi feito o HTML e CSS de uma página para cadastro, em seguida função com o JavaScript.</p>
+  </footer>
+</main>
+
+<!-- JavaScript no fim do body garante que o DOM já foi carregado -->
+<script src="script.js"></script>
+</body>
+</html>
